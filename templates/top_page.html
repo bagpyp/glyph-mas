@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Test Title: Hi Lily!</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+.flex-container2 {
+  display: flex;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
+
+.flex-container2 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="flex-container2">
+  <div class ="testFlex2" id="health">1</div>
+  <div id="sheild">2</div>
+  <div id = "money">3</div>  
+</div>
+<script type="text/javascript">
+  var health = 100
+  var money = 0
+  var sheild = 100
+
+  document.getElementById('health').innerHTML = health
+  document.getElementById('money').innerHTML = money
+  document.getElementById('sheild').innerHTML = sheild
+
+</script>
+
+</body>
+</html>
